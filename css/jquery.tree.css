@@ -1,0 +1,115 @@
+.item-inactive {padding:0px;margin:0px;}
+.item-deselect {padding:0px;margin:0px;}
+.item-selected {padding:0px;margin:0px;}
+.b-cms-tree-body .hover, .mioland .hover {background:#eee;}
+.mioland {position:relative;}
+.selectedLine {background:#BFD8FF;}
+.checkedLine {opacity:0.5;}
+.dragAfter {border-bottom: 1px #f00 solid;width:100%;}
+.dragBefore {border-top: 1px #f00 solid;width:100%;}
+.dragTo span {background:#f00!important;width:100%;width:auto;}
+.selectedLine div, .selectedLine a {color:black !important;}
+.b-up {position:absolute;height:8px;width:100%;z-index:2;background:transparent;}
+.b-down {position:absolute;height:8px;width:100%;top:8px;background:transparent;}
+.helper {width:auto;height:18px;border:1px solid #ddd;position:absolute;font:icon;padding-top:2px;display:none;}
+.helper img {align:absmiddle;padding-left:5px;}
+.b-anchor {
+	-moz-user-focus:normal;
+	-moz-user-select:none;
+   	-o-user-select:none;
+   	-khtml-user-select:none;
+	outline-color:-moz-use-text-color;
+	outline-style:none;
+	outline-width:0;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.icon-red {color:red;}
+.b-anchor span {
+	position:absolute;
+	color:black;
+	padding:1px 3px 1px 2px;
+	text-decoration:none;	
+}
+.selectedLine .b-up {background:#ddd;}
+.tree-columns
+{
+	float:left;
+	padding: 0px;
+	margin: 0px;
+	font: icon;
+	color: WindowText;
+	white-space: nowrap;
+	height: 20px;
+	background:ButtonFace;
+}
+.tree-container {
+	afloat: left;
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	font: icon;
+	white-space: nowrap;
+}
+.tree-item
+{
+	float:left;
+	padding: 0px;
+	margin: 0px;
+	font-family:Arial,sans-serif;
+	font-size: 13px;
+	color: WindowText;
+	white-space: nowrap;
+	height: 20px;
+}
+
+.tree-item input {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px 2px 2px 2px;
+    color: #555555;
+    display: inline-block;
+    font-size: 12px;
+    width: 90px;
+    position: absolute;
+    padding:2px;
+}
+.tree-item-base img, .tree-item img {
+	vertical-align: middle;
+	border: 0px;
+}
+
+.tree-icon {
+	height: 18px;
+	margin-right:2px;
+}
+.tree-item-base
+{
+	float:left;
+	padding: 0px;
+	margin: 0px;
+	font: icon;
+	color: #fff;
+	white-space: nowrap;
+	height: 20px;
+}
+.tree-item a{text-decoration:none;color:black;}
+a.selected {background:#BFD8FF;color:black;}
+a.selected:hover {background:#BFD8FF;color:black;}
+
+
+.b-item-selected {background:#BFD8FF;}
+
+.b-img-back {
+	width:200px;
+	height:140px;
+	border:1px solid #ddd;
+	margin-bottom:10px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	position:relative;
+}
+
+.g-hidden {display:none;}
+.b-delete {display:block;width:12px;height:12px;background:url('/i/tree/cross.png') no-repeat;cursor:hand;cursor:pointer;margin-left:190px;margin-top:-15px;margin-bottom:10px;}
